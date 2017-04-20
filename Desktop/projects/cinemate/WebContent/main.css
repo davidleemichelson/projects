@@ -1,0 +1,193 @@
+html, body {
+  background-color: #B9090B;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  body: 100%;
+  overflow: hidden;
+  font-family: 'Lobster', cursive, HelveticaNeue, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  box-sizing: border-box;
+}
+#profile-page {
+	overflow: scroll;
+}
+#result-h2 {
+	margin-top: -5px;
+}
+#followers{
+	width: 49%;
+	float: left;
+	text-align: center;
+}
+#results {
+	height: 200px;
+	overflow: scroll;
+}
+.search-result-table-row {
+	width: 100%;
+    text-align: center;
+    margin-top: -30px;
+}
+.search-result-table-row:hover {
+	background-color: #e63333;
+}
+#search-results-header {
+	width: inherit;
+	text-align:center;
+	background-color: #e63333
+}
+
+#listing_specs table {
+	display: table;	
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 200px;
+}
+
+#search-results-table {
+	width: 100%;
+    height: 200px;
+    background-color: #831010;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#following {
+	width: 49%;
+	float: right;
+	text-align: center;
+}
+
+#feed-title {
+	text-align: center;
+}
+
+.follow-title {
+	background-color: #ff7100;
+	height: 200%;
+	font-size: 30px;
+	margin-top: -20px;
+}
+
+.follow-item {
+	font-size: 20px;
+	margin-top: -15px;
+	color: white;
+	text-shadow: 2px 3px black;
+}
+
+.prof-pic {
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	height: 150px;
+}
+
+#profile-header {
+	background-color: #FFC20F;
+	margin-top: -60px;
+}
+
+#prof-full-name {
+	margin-top: -5px;
+	color: white;
+	text-shadow: 2px 3px black;
+	text-align: center;
+	font-size: 50px;
+	
+}
+#prof-username {
+	margin-top: -45px;
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 3px black;
+	text-align: center;
+}
+
+form {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+  
+} 
+
+input {
+	background-color: white;
+	color: black;
+    width: 100%;
+    padding: 30px 40px;
+    margin: 8px 0;
+    box-sizing: border-box;
+ 	font-size: 16px;
+ 	border: none;
+  	border-radius: 1000px;
+  	font-size: 15px;
+  	font-family: 'Lobster', cursive, HelveticaNeue, Helvetica, Arial, sans-serif;
+}
+input[type=submit] {
+	border: none;
+	background-color: #484748;
+	color: white;
+	font-family: 'Lobster', cursive, HelveticaNeue, Helvetica, Arial, sans-serif;
+	font-size: 20px;
+}
+h1 {
+	color: white;
+	font-size: 100px;
+	margin-top: 0px;
+	text-shadow: 2px 3px black;
+}
+h2 {
+	color: white;
+	text-shadow: 2px 3px black;
+}
+
+.errorMessage {
+	text-align: center;
+	color: #ffff94;
+	text-shadow: 1px 2px black;
+}
+#main-menu-table {
+	width: 100%;
+	margin: 0 auto;
+	color: white;
+	text-shadow: 1px 2px black;
+	font-size: 200%;
+	padding: 10px 0px 0px 40px;
+}
+
+.main-menu-table-item {
+	text-decoration: none;
+	color: white;
+}
+.main-menu-table-item:hover {
+	text-decoration: none;
+	color: #ffc8db;
+}
+
+#profile-hearder {
+}
+#header {
+}
+
+#content {
+	background-color: #000000;
+	height: 500px;
+	padding-top: 100px;
+}
+#xml-entry {
+	background-color: #B9090B;
+	height: 300px;
+	width: 50%;
+	margin: 0 auto;
+	padding: 50px;
+}
+#footer {
+	height: 300px;
+	bottom: 0;
+	width: 100%;
+}
+
